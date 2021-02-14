@@ -14,8 +14,8 @@ public class CarController {
 
     private CarService carService;
 
-    public CarController(CarService carDAO) {
-        this.carService = carDAO;
+    public CarController(CarService carService) {
+        this.carService = carService;
     }
 
     @GetMapping()
